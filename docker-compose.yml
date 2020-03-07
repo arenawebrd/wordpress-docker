@@ -39,3 +39,11 @@ services:
     ports:      
     - "8080:80"    
     restart: "always"
+    
+  mailhog:
+    container_name: mailhog-1 
+    image: mailhog/mailhog:latest
+    restart: "always"
+    ports:
+      - 1025:1025
+      - 8025:8025 
