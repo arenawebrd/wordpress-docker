@@ -1,4 +1,4 @@
-# docker
+# WordPress-docker
 Docker-compose: WordPress + Mysql + phpMyAdmin + Mailhog.
 
 Only for test.
