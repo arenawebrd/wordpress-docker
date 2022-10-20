@@ -4,7 +4,7 @@ services:
 
   wordpress:
     container_name: wp-1  
-    image: arm64v8/wordpress
+    image: wordpress:lastest
     restart: "always"
     ports:
       - "80:80"
